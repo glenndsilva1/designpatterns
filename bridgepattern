@@ -1,0 +1,10 @@
+The bridge pattern is basically builds a bridge between Implementations and Abstractions so both can grow independently
+
+Keywords
+Pairing i.e combinining classes creating a cartisan product.
+Horizontal abstraction . It emphasizes the parallel development of different class hierarchies (like colors and shapes) without them being tightly coupled
+
+
+
+
+
