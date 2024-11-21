@@ -1,1 +1,10 @@
 Command Pattern is a pattern that encapsulates a request so that actions can be seperated from the receiver.
+This command is used when many receivers have the same actions.
+
+for e.g. 
+
+Fan 
+Light 
+
+They have similar actions like on and off respectively its a good use case for this.
+
