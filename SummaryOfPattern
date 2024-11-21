@@ -7,3 +7,7 @@ For example, consider a system where you have different devices (like Fan and Li
 Each device can be turned on or off, which are common actions. The Command Pattern allows you to define these actions (like TurnOn, TurnOff) 
 in command objects and then apply them to different receivers (the Fan or the Light).
 
+-> Parameterize requests
+-> Queue requests
+-> Support undo/redo
+-> Log actions
