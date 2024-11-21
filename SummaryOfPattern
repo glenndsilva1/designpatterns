@@ -1,10 +1,9 @@
-Command Pattern is a pattern that encapsulates a request so that actions can be seperated from the receiver.
-This command is used when many receivers have the same actions.
+You can apply the Command Pattern when multiple receivers (like Fan and Light) perform the same set of actions (like turning on or off).
+Instead of writing separate methods in each receiver 
+class to handle these actions, you can define commands that represent these actions. 
+These command objects can then be executed on any receiver.
 
-for e.g. 
-
-Fan 
-Light 
-
-They have similar actions like on and off respectively its a good use case for this.
+For example, consider a system where you have different devices (like Fan and Light) and you want to control them using a remote. 
+Each device can be turned on or off, which are common actions. The Command Pattern allows you to define these actions (like TurnOn, TurnOff) 
+in command objects and then apply them to different receivers (the Fan or the Light).
 
